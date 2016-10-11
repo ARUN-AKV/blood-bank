@@ -12,7 +12,7 @@
 		if (!empty($table_name)) {
 			$sql = $sql.'`'.table_name."`WHERE";
 		}
-		if (is_array($condition)) {
+		if (is__array($condition)) {
 			$i=1;
 			foreach ($condition as $column_name => $value) {
 				$column_name = sanitize($column_name,$conn);
