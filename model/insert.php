@@ -8,7 +8,7 @@
 	}
 
 	function get_insert_query($table_name,$column_names_and_values,$conn){
-		$sql ="INSERT INTO";
+		$sql ="INSERT INTO ";
 		if (!empty($table_name)) {
 			$sql = $sql.$table_name;
 		}
