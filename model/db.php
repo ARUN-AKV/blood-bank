@@ -20,6 +20,8 @@
 		}
 	}
 
-	
-	
+	function get_array_from_object($result){
+		return mysqli_fetch_array($result, MYSQLI_ASSOC);
+	}
+
  ?>
