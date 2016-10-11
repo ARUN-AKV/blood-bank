@@ -1,7 +1,7 @@
 <?php  include_once 'header.php';  ?>
 	<form action="../controller/reg.php" method="post">
 		<div class="container">
-			<h1 class="main-header">Register</h1>
+			<h1 class="jumbotron text-center">Register</h1>
 			<input class="form-control" type="text" name="name" placeholder="Name" required><hr>
 			<input class="form-control" type="text" name="place" placeholder="Place" required><hr>
 			<input class="form-control" type="email" name="email" placeholder="Email" required><hr>

@@ -1,6 +1,6 @@
 <?php  include_once 'header.php';  ?>
 	
-	<h1 class="main-header" style="text-align: center;">BLOOD BANK HOME PAGE</h1>
+	<h1 class="main-header text-center">BLOOD BANK HOME PAGE</h1>
 	<section class="container">
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
