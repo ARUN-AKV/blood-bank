@@ -7,8 +7,8 @@
 	$sql = insert('donor_info',$raw_values,$conn);
 	$success=execute_query($sql,$conn);
 	if(!$success){
-		echo "insert success";
+		header('Location:../view/home.php?status=register-success');
 	}else{
-		echo "not inserted";
+		header('Location:../view/home.php?status=register-failed');
 	}
  ?>
