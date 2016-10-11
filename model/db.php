@@ -28,5 +28,15 @@
 	{
 		return mysqli_real_escape_string($con,$input);
 	}
- 
+ 	
+ 	function create_session($data){
+ 		session_start();
+		$result = $data['0'];
+		$_SESSION["result"] = $result;
+		if(isset($_SESSION['result'])){
+			return true;
+		}
+		return false;
+	}
+	
  ?>
