@@ -17,7 +17,7 @@
 
 	function get_select_query($column_names, $table_name, $conditions){
 		$column = parse_column($column_names);
-		if(emptty($conditions)){
+		if(empty($conditions)){
 			$query = "SELECT ".$column." FROM ".$table_name;
 		} else{
 			$condition = parse_condition($conditions);
@@ -27,7 +27,7 @@
 	}
 
 	function parse_column($column_names){
-		if(is__array($column_names)){
+		if(is_array($column_names)){
 			$i = 1;
 			foreach ($column_names as $key => $column_name) {
 				if($i == 1){
@@ -44,7 +44,7 @@
 	}
 
 	function parse_condition($column_names){
-		if(is__array($column_names)){
+		if(is_array($column_names)){
 			$i = 1;
 			foreach ($column_names as $column_name => $column_value) {
 				if($i == 1){
