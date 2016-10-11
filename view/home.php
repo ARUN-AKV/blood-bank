@@ -18,7 +18,7 @@
 	<hr>
 	<div class="container">
 		<a class="btn btn-info col-md-6" href="registration.php">Registration</a>
-		<a class="btn btn-danger col-md-6" href="search.php">Search blood</a>
+		<a class="btn btn-danger col-md-6" href="search.php">Search Donor</a>
 	</div>
 
 <?php  include_once 'footer.php';  ?>
