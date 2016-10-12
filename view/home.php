@@ -1,60 +1,60 @@
 <?php  include_once 'header.php';  ?>
-	
-	<h1 class="main-header text-center">BLOOD BANK HOME PAGE</h1><hr>
-	<section class="container">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	</section>
-	<hr>
-	<div class="container">
-		<a class="btn btn-info col-md-6" href="registration.php">Registration</a>
-		<a class="btn btn-danger col-md-6" href="search.php">Search Donor</a>
-	</div>
-
+<h1 class="main-header text-center">BLOOD BANK HOME PAGE</h1>
+<hr>
+<div class="container">
+    <div class="col-sm-6 col-md-3">
+        <div class="plans-items animated flipInY visible" data-animation="flipInY" data-animation-delay="200">
+            <img src="../img/1.jpg" alt="" style="width:100%;">
+            <br>
+            <br>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="plans-items animated flipInY visible" data-animation="flipInY" data-animation-delay="200">
+            <img src="../img/2.jpg" alt="" style="width:100%;">
+            <br>
+            <br>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="plans-items animated flipInY visible" data-animation="flipInY" data-animation-delay="200">
+            <img src="../img/3.jpg" alt="" style="width:100%;">
+            <br>
+            <br>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="plans-items animated flipInY visible" data-animation="flipInY" data-animation-delay="200">
+            <img src="../img/4.jpg" alt="" style="width:100%;">
+            <br>
+            <br>
+        </div>
+    </div>
+    <div class="row">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div>
+        A blood donation occurs when a person voluntarily has blood drawn and used for transfusions and/or made into biopharmaceutical medications by a process called fractionation (separation of whole-blood components). Donation may be of whole blood (WB), or of specific components directly (the latter called apheresis). Blood banks often participate in the collection process as well as the procedures that follow it.
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>Today in the developed world, most blood donors are unpaid volunteers who donate blood for a community supply. In poorer countries, established supplies are limited and donors usually give blood when family or friends need a transfusion (directed donation). Many donors donate as an act of charity, but in countries that allow paid donation some donors are paid, and in some cases there are incentives other than money such as paid time off from work. Donors can also have blood drawn for their own future use (autologous donation). Donating is relatively safe, but some donors have bruising where the needle is inserted or may feel faint.</div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>Potential donors are evaluated for anything that might make their blood unsafe to use. The screening includes testing for diseases that can be transmitted by a blood transfusion, including HIV and viral hepatitis. The donor must also answer questions about medical history and take a short physical examination to make sure the donation is not hazardous to his or her health. How often a donor can give varies from days to months based on what he or she donates and the laws of the country where the donation takes place. For example, in the United States, donors must wait eight weeks (56 days) between whole blood donations but only seven days between platelet pheresis donations.</div>
+    </div>
+</div>
+<hr>
+<div class="container">
+    <a class="btn btn-info col-md-6" href="registration.php">BECOME DONOR</a>
+    <a class="btn btn-danger col-md-6" href="search.php">SEARCH BLOOD</a>
+</div>
+<hr>
 <?php  include_once 'footer.php';  ?>
