@@ -5,10 +5,9 @@
 	$raw_values = $_POST;
 	$conn=db_connect();
 	$sql = insert('donor_info',$raw_values,$conn);
-	$success=execute_query($sql,$conn);
-	if(!$success){
+	if($sql){
 		header('Location:../view/home.php?status=register-success');
 	}else{
-		header('Location:../view/home.php?status=register-failed');
+		header('Location:../view/registration.php?status=register-failed');
 	}
  ?>

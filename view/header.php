@@ -14,8 +14,7 @@
 <body>
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="home.php"><img src="../img/logo.png" alt="BLOOD BANK"></a>
-            </div>
+                <a class="navbar-brand" href="home.php"><img src="../img/logo.png" alt="BLOOD BANK"></a> 
+                <a class="navbar-brand" href="home.php">BLOOD BANK</a> 
         </div>
     </nav>
